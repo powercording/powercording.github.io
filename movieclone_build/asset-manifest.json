@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/movieclone_build/static/js/main.cee9f625.js",
+    "index.html": "/movieclone_build/index.html",
+    "main.cee9f625.js.map": "/movieclone_build/static/js/main.cee9f625.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cee9f625.js"
+  ]
+}
