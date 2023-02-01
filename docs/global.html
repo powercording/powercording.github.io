@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>JSDoc: Global</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="styles/prettify-tomorrow.css"
+    />
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css" />
+  </head>
+
+  <body>
+    <div id="main">
+      <h1 class="page-title">Global</h1>
+
+      <section>
+        <header>
+          <h2></h2>
+        </header>
+
+        <article>
+          <div class="container-overview">
+            <dl class="details"></dl>
+          </div>
+
+          <h3 class="subsection-title">Methods</h3>
+
+          <h4 class="name" id="deleteAll">
+            <span class="type-signature"></span>deleteAll<span class="signature"
+              >()</span
+            ><span class="type-signature"></span>
+          </h4>
+
+          <div class="description">
+            <p>모든 Todo 를 삭제합니다.</p>
+          </div>
+
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line60">line 60</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h4 class="name" id="deleteOne">
+            <span class="type-signature"></span>deleteOne<span class="signature"
+              >(id)</span
+            ><span class="type-signature">
+              &rarr; {Array.&lt;<a href="global.html#Todo">Todo</a>>}</span
+            >
+          </h4>
+
+          <div class="description">
+            <p>선택한 id 를 가진 Todo 를 삭제 합니다.</p>
+          </div>
+
+          <h5>Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="description last">
+                  <p>해당 아이디를 가진 Todo 를 삭제합니다.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line66">line 66</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5>Returns:</h5>
+
+          <div class="param-desc">
+            <p>해당 Todo 를 삭제 한 후, 모든 나머지 Todo 를 반환합니다.</p>
+          </div>
+
+          <dl>
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"
+                >Array.&lt;<a href="global.html#Todo">Todo</a>></span
+              >
+            </dd>
+          </dl>
+
+          <h4 class="name" id="deleteSingleTag">
+            <span class="type-signature"></span>deleteSingleTag<span
+              class="signature"
+              >(id, tag)</span
+            ><span class="type-signature">
+              &rarr; {<a href="global.html#Todo">Todo</a>}</span
+            >
+          </h4>
+
+          <div class="description">
+            <p>선택한 id 의 Todo 에서 인자로 전달받은 Tag 를 삭제합니다.</p>
+          </div>
+
+          <h5>Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="description last">
+                  <p>해당 Id를 가진 Todo 를 선택합니다.</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>tag</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="description last">
+                  <p>해당 태그를 Todo에서 삭제합니다.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line81">line 81</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5>Returns:</h5>
+
+          <div class="param-desc">
+            <p>수정된 Todo 를 반환합니다.</p>
+          </div>
+
+          <dl>
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"
+                ><a href="global.html#Todo">Todo</a></span
+              >
+            </dd>
+          </dl>
+
+          <h4 class="name" id="deleteTags">
+            <span class="type-signature"></span>deleteTags<span
+              class="signature"
+              >(id)</span
+            ><span class="type-signature">
+              &rarr; {<a href="global.html#Todo">Todo</a>}</span
+            >
+          </h4>
+
+          <div class="description">
+            <p>선택한 id의 Todo 에서 모든 Tag를 삭제합니다.</p>
+          </div>
+
+          <h5>Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="description last">
+                  <p>
+                    해당 Id를 가진 Todo를 선택합니다. 모든 태그가 삭제됩니다.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line73">line 73</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5>Returns:</h5>
+
+          <div class="param-desc">
+            <p>수정된 Todo 를 반환합니다.</p>
+          </div>
+
+          <dl>
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"
+                ><a href="global.html#Todo">Todo</a></span
+              >
+            </dd>
+          </dl>
+
+          <h4 class="name" id="readAll">
+            <span class="type-signature"></span>readAll<span class="signature"
+              >()</span
+            ><span class="type-signature">
+              &rarr; {Array.&lt;<a href="global.html#Todo">Todo</a>>}</span
+            >
+          </h4>
+
+          <div class="description">
+            <p>할일 목록 불러오기 - 전체 할 일을 반환 합니다.</p>
+          </div>
+
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line31">line 31</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5>Returns:</h5>
+
+          <div class="param-desc">
+            <p>전체 Todo목록을 반환 합니다.</p>
+          </div>
+
+          <dl>
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"
+                >Array.&lt;<a href="global.html#Todo">Todo</a>></span
+              >
+            </dd>
+          </dl>
+
+          <h4 class="name" id="readOne">
+            <span class="type-signature"></span>readOne<span class="signature"
+              >(id)</span
+            ><span class="type-signature">
+              &rarr; {<a href="global.html#Todo">Todo</a>}</span
+            >
+          </h4>
+
+          <div class="description">
+            <p>아이디로 특정 Todo 를 반환 합니다.</p>
+          </div>
+
+          <h5>Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="description last">
+                  <p>해당 아이디의 todo 를 반환 합니다.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line38">line 38</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5>Returns:</h5>
+
+          <div class="param-desc">
+            <p>Todo</p>
+          </div>
+
+          <dl>
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"
+                ><a href="global.html#Todo">Todo</a></span
+              >
+            </dd>
+          </dl>
+
+          <h4 class="name" id="updateTag">
+            <span class="type-signature"></span>updateTag<span class="signature"
+              >(id, tag)</span
+            ><span class="type-signature">
+              &rarr; {<a href="global.html#Todo">Todo</a>}</span
+            >
+          </h4>
+
+          <div class="description">
+            <p>특정 todo 의 tag를 추가 합니다.</p>
+          </div>
+
+          <h5>Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="description last">
+                  <p>수정하려는 Todo 의 id 입니다.</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>tag</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="description last">
+                  <p>tag를 해당 Todo 에 추가합니다.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line55">line 55</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5>Returns:</h5>
+
+          <div class="param-desc">
+            <p>수정된 Todo 를 반환합니다.</p>
+          </div>
+
+          <dl>
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"
+                ><a href="global.html#Todo">Todo</a></span
+              >
+            </dd>
+          </dl>
+
+          <h4 class="name" id="updateTodo">
+            <span class="type-signature"></span>updateTodo<span
+              class="signature"
+              >(id, newTodo)</span
+            ><span class="type-signature">
+              &rarr; {<a href="global.html#Todo">Todo</a>}</span
+            >
+          </h4>
+
+          <div class="description">
+            <p>ID 를 제외한 모든 속성을 수정할 수 있습니다.</p>
+          </div>
+
+          <h5>Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="description last">
+                  <p>수정하려는 Todo 의 id 입니다.</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>newTodo</code></td>
+
+                <td class="type">
+                  <span class="param-type"
+                    ><a href="global.html#UpdateObject">UpdateObject</a></span
+                  >
+                </td>
+
+                <td class="description last">
+                  <p>
+                    newTodo 의 property 로 기존 Todo의 property 를 수정합니다.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line47">line 47</a>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-see">See:</dt>
+            <dd class="tag-see">
+              <ul>
+                <li>
+                  <a href="global.html#UpdateObject"
+                    ><code>UpdateObject</code></a
+                  >
+                  type of UpdateObject
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5>Returns:</h5>
+
+          <div class="param-desc">
+            <p>수정된 Todo 를 반환합니다.</p>
+          </div>
+
+          <dl>
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"
+                ><a href="global.html#Todo">Todo</a></span
+              >
+            </dd>
+          </dl>
+
+          <h3 class="subsection-title">Type Definitions</h3>
+
+          <h4 class="name" id="Todo">Todo</h4>
+
+          <div class="description">
+            <p>투두타입선언</p>
+          </div>
+
+          <h5>Type:</h5>
+          <ul>
+            <li>
+              <span class="param-type">object</span>
+            </li>
+          </ul>
+
+          <h5 class="subsection-title">Properties:</h5>
+
+          <table class="props">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th>Attributes</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>id</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="attributes"></td>
+
+                <td class="description last"><p>식별 번호</p></td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>to</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="attributes"></td>
+
+                <td class="description last"><p>할 일</p></td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>isDone</code></td>
+
+                <td class="type">
+                  <span class="param-type">boolean</span>
+                </td>
+
+                <td class="attributes"></td>
+
+                <td class="description last">
+                  <p>할 일이 완료 되었는지의 여부</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>tags</code></td>
+
+                <td class="type">
+                  <span class="param-type">Array.&lt;string></span>
+                </td>
+
+                <td class="attributes">&lt;nullable><br /></td>
+
+                <td class="description last"><p>적용할 태그 배열</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line1">line 1</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h4 class="name" id="UpdateObject">UpdateObject</h4>
+
+          <div class="description">
+            <p>투두 업데이트 객체 타입 선언</p>
+          </div>
+
+          <h5>Type:</h5>
+          <ul>
+            <li>
+              <span class="param-type">object</span>
+            </li>
+          </ul>
+
+          <h5 class="subsection-title">Properties:</h5>
+
+          <table class="props">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th>Attributes</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>to</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="attributes">&lt;nullable><br /></td>
+
+                <td class="description last"><p>할 일</p></td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>isDone</code></td>
+
+                <td class="type">
+                  <span class="param-type">boolean</span>
+                </td>
+
+                <td class="attributes">&lt;nullable><br /></td>
+
+                <td class="description last">
+                  <p>할 일이 완료 되었는지의 여부</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>tags</code></td>
+
+                <td class="type">
+                  <span class="param-type">Array.&lt;string></span>
+                </td>
+
+                <td class="attributes">&lt;nullable><br /></td>
+
+                <td class="description last"><p>태그 배열</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <dl class="details">
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="index.js.html">index.js</a>,
+                  <a href="index.js.html#line10">line 10</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+        </article>
+      </section>
+    </div>
+
+    <nav>
+      <h2><a href="index.html">Home</a></h2>
+      <h3>Classes</h3>
+      <ul>
+        <li><a href="CREATE.html">CREATE</a></li>
+      </ul>
+      <h3>Global</h3>
+      <ul>
+        <li><a href="global.html#deleteAll">deleteAll</a></li>
+        <li><a href="global.html#deleteOne">deleteOne</a></li>
+        <li><a href="global.html#deleteSingleTag">deleteSingleTag</a></li>
+        <li><a href="global.html#deleteTags">deleteTags</a></li>
+        <li><a href="global.html#readAll">readAll</a></li>
+        <li><a href="global.html#readOne">readOne</a></li>
+        <li><a href="global.html#updateTag">updateTag</a></li>
+        <li><a href="global.html#updateTodo">updateTodo</a></li>
+      </ul>
+    </nav>
+
+    <br class="clear" />
+
+    <footer>
+      Documentation generated by
+      <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.0</a> on Wed Feb 01
+      2023 20:09:22 GMT+0900 (대한민국 표준시)
+    </footer>
+
+    <script>
+      prettyPrint();
+    </script>
+    <script src="scripts/linenumber.js"></script>
+  </body>
+</html>
