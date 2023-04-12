@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/onboardingtodo/static/js/main.02af4fe9.js",
+    "main.js": "/onboardingtodo/static/js/main.1c66b05d.js",
     "index.html": "/onboardingtodo/index.html",
-    "main.02af4fe9.js.map": "/onboardingtodo/static/js/main.02af4fe9.js.map"
+    "main.1c66b05d.js.map": "/onboardingtodo/static/js/main.1c66b05d.js.map"
   },
   "entrypoints": [
-    "static/js/main.02af4fe9.js"
+    "static/js/main.1c66b05d.js"
   ]
 }
